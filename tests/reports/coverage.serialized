@@ -4,6 +4,72 @@ $coverage->setData(array (
   '/usr/share/nginx/html/app/User.php' => 
   array (
   ),
+  '/usr/share/nginx/html/app/Test.php' => 
+  array (
+  ),
+  '/usr/share/nginx/html/app/Http/Controllers/TestController.php' => 
+  array (
+    17 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testIndex',
+    ),
+    18 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testIndex',
+    ),
+    19 => NULL,
+    29 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testStore',
+    ),
+    30 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testStore',
+    ),
+    31 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testStore',
+    ),
+    32 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testStore',
+    ),
+    33 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testStore',
+    ),
+    34 => NULL,
+    44 => 
+    array (
+    ),
+    45 => NULL,
+    56 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testUpdate',
+    ),
+    57 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testUpdate',
+    ),
+    58 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testUpdate',
+    ),
+    59 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testUpdate',
+    ),
+    60 => NULL,
+    70 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testDestroy',
+    ),
+    71 => 
+    array (
+      0 => 'Tests\\Feature\\TestTest::testDestroy',
+    ),
+    72 => NULL,
+  ),
   '/usr/share/nginx/html/app/Http/Controllers/Controller.php' => 
   array (
   ),
@@ -17,12 +83,34 @@ $coverage->setTests(array (
     'size' => 'unknown',
     'status' => -1,
   ),
+  'Tests\\Feature\\TestTest::testIndex' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\Feature\\TestTest::testStore' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\Feature\\TestTest::testUpdate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\Feature\\TestTest::testDestroy' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
 ));
 
 $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
   '/usr/share/nginx/html/app/Http/Controllers/Controller.php' => true,
+  '/usr/share/nginx/html/app/Http/Controllers/TestController.php' => true,
   '/usr/share/nginx/html/app/Http/Kernel.php' => true,
+  '/usr/share/nginx/html/app/Test.php' => true,
   '/usr/share/nginx/html/app/User.php' => true,
 ));
 

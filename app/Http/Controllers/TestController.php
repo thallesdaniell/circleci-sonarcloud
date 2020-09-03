@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Test;
 use Illuminate\Http\Request;
 
 class TestController extends Controller
@@ -13,17 +14,8 @@ class TestController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        $tests = Test::all();
+        return response()->json($tests,200);
     }
 
     /**
@@ -34,7 +26,11 @@ class TestController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $test              = new Test();
+        $test->name        = $request->get('name');
+        $test->description = $request->get('description');
+        $test->save();
+        return response()->json($test,201);
     }
 
     /**
@@ -43,32 +39,24 @@ class TestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Test $test)
     {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
+        return response()->json($test,200);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  int  $test
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request,Test $test)
     {
-        //
+        $test->name        = $request->get('name');
+        $test->description = $request->get('description');
+        $test->save();
+        return response()->json($test,201);
     }
 
     /**
@@ -77,8 +65,9 @@ class TestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Test $test)
     {
-        //
+        $test->delete();
+        return response([],204);
     }
 }
