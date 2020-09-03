@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="2.613441">
-    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.011919">
-      <testsuite name="Tests\Unit\ExampleTest" file="/usr/share/nginx/html/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.011919">
-        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/usr/share/nginx/html/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.011919"/>
+  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="2.956159">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010999">
+      <testsuite name="Tests\Unit\ExampleTest" file="/usr/share/nginx/html/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010999">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/usr/share/nginx/html/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.010999"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Feature" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="2.601522">
-      <testsuite name="Tests\Feature\ExampleTest" file="/usr/share/nginx/html/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.918712">
-        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" file="/usr/share/nginx/html/tests/Feature/ExampleTest.php" line="15" assertions="1" time="0.918712"/>
+    <testsuite name="Feature" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="2.945160">
+      <testsuite name="Tests\Feature\ExampleTest" file="/usr/share/nginx/html/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.922927">
+        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" file="/usr/share/nginx/html/tests/Feature/ExampleTest.php" line="15" assertions="1" time="0.922927"/>
       </testsuite>
-      <testsuite name="Tests\Feature\TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="1.682810">
-        <testcase name="testIndex" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="32" assertions="1" time="0.668141"/>
-        <testcase name="testStore" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="39" assertions="1" time="0.347643"/>
-        <testcase name="testUpdate" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="48" assertions="1" time="0.332784"/>
-        <testcase name="testDestroy" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="59" assertions="1" time="0.334242"/>
+      <testsuite name="Tests\Feature\TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="2.022233">
+        <testcase name="testIndex" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="32" assertions="1" time="0.676699"/>
+        <testcase name="testStore" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="39" assertions="1" time="0.354051"/>
+        <testcase name="testShow" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="48" assertions="1" time="0.330873"/>
+        <testcase name="testUpdate" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="55" assertions="1" time="0.333594"/>
+        <testcase name="testDestroy" class="Tests\Feature\TestTest" classname="Tests.Feature.TestTest" file="/usr/share/nginx/html/tests/Feature/TestTest.php" line="66" assertions="1" time="0.327016"/>
       </testsuite>
     </testsuite>
   </testsuite>

@@ -7,6 +7,7 @@ Example (Tests\Feature\Example)
 Unnamed Tests (Tests\Feature\UnnamedTests)
  [x] Index
  [x] Store
+ [x] Show
  [x] Update
  [x] Destroy
 

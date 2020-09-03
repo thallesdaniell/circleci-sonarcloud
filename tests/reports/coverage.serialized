@@ -41,6 +41,7 @@ $coverage->setData(array (
     34 => NULL,
     44 => 
     array (
+      0 => 'Tests\\Feature\\TestTest::testShow',
     ),
     45 => NULL,
     56 => 
@@ -89,6 +90,11 @@ $coverage->setTests(array (
     'status' => 0,
   ),
   'Tests\\Feature\\TestTest::testStore' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\Feature\\TestTest::testShow' => 
   array (
     'size' => 'unknown',
     'status' => 0,

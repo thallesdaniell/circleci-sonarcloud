@@ -45,6 +45,13 @@ class TestTest extends TestCase
         $response->assertSuccessful();
     }
 
+    public function testShow()
+    {
+        $test     = factory(Test::class)->create();
+        $response = $this->get("api/test/{$test->id}");
+        $response->assertStatus(200);
+    }
+
     public function testUpdate()
     {
         $test     = factory(Test::class)->create();
