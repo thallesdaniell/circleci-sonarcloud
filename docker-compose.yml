@@ -12,10 +12,11 @@ services:
       - ./docker/nginx/:/etc/nginx/conf.d
 
   php-fpm:
-    build: .
+    build: .docker/php
     container_name: demo_php
     volumes:
       - ./:/usr/share/nginx/html:rw
+      - ./.docker/php-fpm/custom.ini:/usr/local/etc/php/conf.d/custom.ini
 
 
 

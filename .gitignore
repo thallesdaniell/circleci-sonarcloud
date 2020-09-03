@@ -225,3 +225,4 @@ modules.xml
 /build/
 
 # End of https://www.toptal.com/developers/gitignore/api/laravel,phpunit,phpstorm,phpstorm+all,phpcodesniffer
+/storage/framework/
