@@ -11,6 +11,11 @@ RUN apt-get update && apt-get install -y --allow-unauthenticated \
     && docker-php-ext-install curl \
     && docker-php-ext-install zip;
 
+#XDEBUG
+RUN pecl install xdebug
+RUN docker-php-ext-enable xdebug
+
+
 RUN cd ~ \
     && curl -sS https://getcomposer.org/installer -o composer-setup.php \
     && php composer-setup.php --install-dir=/usr/local/bin --filename=composer;

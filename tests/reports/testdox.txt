@@ -1,0 +1,6 @@
+Example (Tests\Unit\Example)
+ [x] Basic test
+
+Example (Tests\Feature\Example)
+ [x] Basic test
+

@@ -1,0 +1,29 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/usr/share/nginx/html/app/User.php' => 
+  array (
+  ),
+  '/usr/share/nginx/html/app/Http/Controllers/Controller.php' => 
+  array (
+  ),
+  '/usr/share/nginx/html/app/Http/Kernel.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/usr/share/nginx/html/app/Http/Controllers/Controller.php' => true,
+  '/usr/share/nginx/html/app/Http/Kernel.php' => true,
+  '/usr/share/nginx/html/app/User.php' => true,
+));
+
+return $coverage;
