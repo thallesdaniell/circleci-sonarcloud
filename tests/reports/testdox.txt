@@ -4,10 +4,4 @@ Example (Tests\Unit\Example)
 Example (Tests\Feature\Example)
  [x] Basic test
 
-Unnamed Tests (Tests\Feature\UnnamedTests)
- [x] Index
- [x] Store
- [x] Show
- [x] Update
- [x] Destroy
 

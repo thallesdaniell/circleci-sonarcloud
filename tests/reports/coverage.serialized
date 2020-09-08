@@ -4,6 +4,7 @@ $coverage->setData(array (
   '/usr/share/nginx/html/app/User.php' => 
   array (
   ),
+
   '/usr/share/nginx/html/app/Test.php' => 
   array (
   ),
